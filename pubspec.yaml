@@ -1,0 +1,111 @@
+name: portalhigia
+description: Higia Sistema de Gestão de Saúde.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  #flutter_webview_plugin: ^0.3.11
+  # url_launcher: ^5.5.0
+  url_launcher: ^6.0.2
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  carousel_slider: ^4.0.0
+  # youtube_player_iframe: ^1.2.0+2
+  youtube_player_iframe: ^2.2.2
+  http: ^0.13.3
+  audioplayers: ^0.20.1
+  just_audio: ^0.9.12
+  
+
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto-Italic.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  
+   - assets/icons/logo.png
+   - assets/icons/logo_vertical.png
+   - assets/icons/whats.png
+   - assets/images/modulo_diretor.png
+   - assets/images/modulo_medico.png
+   - assets/images/modulo_paciente.png
+   - assets/images/modulo_clinica.png
+   - assets/images/modulo_atendente.png
+   - assets/images/agenda.png
+   - assets/images/medico.png
+   - assets/images/painel.png
+   - assets/images/usuario.png 
+   - assets/images/estetoscopio.jpg
+   - assets/images/contrate.jpg 
+   - assets/images/clinica.jpg
+   - assets/images/mac.png
+   - assets/images/trabalho.jpg
+   - assets/images/login_mobile.png
+   - assets/images/iphone.png
+   - assets/images/app_store.png
+   - assets/images/play_store.png
+   - assets/images/milton.gif
+   - assets/images/bruno.jpeg
+   
+   - assets/images/mod_clinica.png
+   - assets/images/mod_clinica_agenda.png
+   - assets/images/mod_clinica_cadFuncionarios.png
+   - assets/images/mod_clinica_financeiro.png
+   - assets/images/mod_clinica_cadPaciente.png
+
+   - assets/images/mod_atendente_bloco.png
+   - assets/images/mod_atendente_consultas.png
+   - assets/images/mod_atendente_perfil.png
+   - assets/images/mod_atendente_salaespera.png
+
+   - assets/images/mod_medico_assistencia.png
+   - assets/images/mod_medico_historico.png
+   - assets/images/mod_medico_prontuario.png
+
+   
+   - assets/images/mod_paciente.png
+   - assets/images/mod_paciente_acompanhamento.png
+   - assets/images/mod_paciente_historico.png
+   - assets/images/mod_paciente_assistencia.png
+
+   - assets/audio/pronunciaHigia.m4a
+
+
+
+
+
+
+
+
